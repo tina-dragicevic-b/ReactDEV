@@ -1,0 +1,13 @@
+.table {
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #29142c;
+    width: 50%;
+    min-height: 300px;
+    border-radius: 5%;
+}
+
+.title {
+    text-align: center;
+    font-size: 20px;
+}
