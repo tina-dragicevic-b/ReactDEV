@@ -4,7 +4,7 @@ import Description from "./Description"
 function AboutUser() {
 
   const personalData = {
-    "Date of birth": "31st August 1994.",
+    "Date of birth": "31st August 1990",
     "Address": "Domovinskog rata 2",
     "Phone": "(555) 555-1592",
   };
