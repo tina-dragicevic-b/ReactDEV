@@ -1,8 +1,11 @@
-function Team () {
+function Team (props) {
 
     return (
       <>
-        <div style={{ width: "50px", height: "50px", color: '#e59500', backgroundColor: '#002642'}}>tim1</div>
+        <div className="teamDiv">
+          <img src={props.image} className="teamImage" />
+          <p style={{color: "#e5dada", fontFamily: "fantasy"}}>{props.name}</p>
+        </div>
       </>
     );
 

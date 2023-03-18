@@ -1,8 +1,12 @@
-function Score () {
+function Score (props) {
 
     return (
       <>
-        <div style={{ width: "50px", height: "50px", color: '#e59500' }}>skor</div>
+        <div>
+          <p className="score" style={{ color: "#e59500", fontFamily: "cursive" }}>
+            {props.scoreT1} : {props.scoreT2}
+          </p>
+        </div>
       </>
     );
 
