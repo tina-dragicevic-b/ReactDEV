@@ -1,8 +1,8 @@
 import PanelBody from "./PanelBody";
 import PanelHeader from "./PanelHeader";
-import PanelFooter from "./PanelFooter";
-import { useState } from "react";
+import React, { useState } from "react";
 import ScoreButton from "./ScoreButton";
+import Countdown from 'react-countdown';
 
 function Panel()  {
 
@@ -17,57 +17,76 @@ function Panel()  {
     score: 0
   })
 
+  // const [isCompleted, setIsCompleted] = useState(false)
+  let isCompleted = false;
+
   function scoreTeamOne() {
+    if(isCompleted) return;
     setTeamOne({name: teamOne.name, image: teamOne.image, score: teamOne.score + 1})
   }
   function decreaseScoreTeamOne() {
-    if(teamOne.score == 0) return;
+    if(teamOne.score == 0 || isCompleted) return;
     setTeamOne({name: teamOne.name, image: teamOne.image, score: teamOne.score - 1})
   }
   function scoreTeamTwo() {
+    if(isCompleted) return;
     setTeamTwo({name: teamTwo.name, image: teamTwo.image, score: teamTwo.score + 1})
   }
   function decreaseScoreTeamTwo() {
-    if(teamTwo.score == 0) return;
+    if(teamTwo.score == 0 || isCompleted) return;
     setTeamTwo({name: teamTwo.name, image: teamTwo.image, score: teamTwo.score - 1})
   }
-  function scoreNotZero(score) {
-    console.log(score = 0)
-    return score != 0;
-  }
 
-    return (
+  // let timer = (Date.now() + 180000);
+  const timer = React.useRef(Date.now()).current + 180000;
+
+  const GameFinished = () => <span style={{color: '#fff'}} >Finished!</span>;
+  const renderer = ({ minutes, seconds, completed }) => {
+    if (completed) {
+      // setIsCompleted(completed)
+      isCompleted = completed
+      return <GameFinished />;
+    } else {
+      return <span style={{color: '#fff'}} >{minutes}:{seconds}</span>;
+    }
+  };
+
+  return (
       <>
         <div className="panel">
-          <PanelHeader />
-          <PanelBody teamOne={teamOne} teamTwo={teamTwo}/>
+          <PanelHeader
+            rightColumn={
+              <div style={{ gridColumn: "2 / 3" }}>
+                <Countdown date={timer} renderer={renderer} />
+              </div>
+            }
+          />
+          <PanelBody teamOne={teamOne} teamTwo={teamTwo} />
           <div
-          className="grid-container"
-          style={{ display: "grid", justifyContent: "space-evenly" }}
-        >
-          <div className="scoreButton" style={{ gridColumn: "1 / 2" }}><ScoreButton disab={false} action={scoreTeamOne} icon="+"/></div>
-          {/* <div style={{ gridColumn: "2 / 3" }}>
-            {
-            scoreNotZero(teamOne.score) ?
-            <ScoreButton disab={false} action={decreaseScoreTeamOne} icon="-"/> :
-            <ScoreButton disab={true} action={decreaseScoreTeamOne} icon="-"/>
-            }
-          </div> */}
-          <div style={{ gridColumn: "2 / 3" }}>
-            <ScoreButton disab={false} action={decreaseScoreTeamOne} icon="-"/>
-          </div>
-          <div style={{ gridColumn: "6 / 7" }}><ScoreButton disab={false} action={scoreTeamTwo} icon="+"/></div>
-          {/* <div style={{ gridColumn: "7 / 8" }}>
-            {
-              scoreNotZero(teamTwo.score) ? 
-              <ScoreButton disab={false} action={decreaseScoreTeamTwo} icon="-"/> :
-              <ScoreButton disab={true} action={decreaseScoreTeamTwo} icon="-"/>
-            }
-            </div> */}
-            <div style={{ gridColumn: "7 / 8" }}>
-              <ScoreButton disab={false} action={decreaseScoreTeamTwo} icon="-"/>
+            className="grid-container"
+            style={{ display: "grid", justifyContent: "space-evenly" }}
+          >
+            <div className="scoreButton" style={{ gridColumn: "1 / 2" }}>
+              <ScoreButton disab={false} action={scoreTeamOne} icon="+" />
             </div>
-        </div>
+            <div style={{ gridColumn: "2 / 3" }}>
+              <ScoreButton
+                disab={false}
+                action={decreaseScoreTeamOne}
+                icon="-"
+              />
+            </div>
+            <div style={{ gridColumn: "6 / 7" }}>
+              <ScoreButton disab={false} action={scoreTeamTwo} icon="+" />
+            </div>
+            <div style={{ gridColumn: "7 / 8" }}>
+              <ScoreButton
+                disab={false}
+                action={decreaseScoreTeamTwo}
+                icon="-"
+              />
+            </div>
+          </div>
         </div>
       </>
     );
