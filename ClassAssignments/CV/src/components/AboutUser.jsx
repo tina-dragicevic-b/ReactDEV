@@ -13,15 +13,6 @@ function AboutUser() {
 
     return (
       <>
-        {/* <div style={{marginTop: "20px"}}>
-          <div>
-            <Table title="Personal data" data={personalData}></Table>
-            <Table title="Skills" data={skills}></Table>
-          </div>
-          <div>
-            <Description></Description>
-          </div>
-        </div> */}
         <div className="grid mx-36 grid-cols-2 grid-rows-2 grid-flow-col py-8">
           <div className="">
             <Table title="Personal data" data={personalData}></Table>

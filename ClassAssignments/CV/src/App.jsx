@@ -1,6 +1,4 @@
 import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import './App.css'
 import Header from './components/Header'
 import AboutUser from './components/AboutUser';
 import Project from './components/Project';
@@ -47,7 +45,6 @@ function App() {
       <Header></Header>
       <AboutUser></AboutUser>
       <div className="grid grid-cols-3 xsm:grid-cols-1 justify-items-center mt-16 mb-36">
-      {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 md:gap-6 p-2 md:p-6"> */}
         {projects.map((project) => (
           <Project key={project.name} project={project}></Project>
         ))}

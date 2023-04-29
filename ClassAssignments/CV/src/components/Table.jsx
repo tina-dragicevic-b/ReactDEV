@@ -33,7 +33,6 @@ function Table({title, data}) {
                   </div>
                 );
               })}
-            {/* <div className="text-right pr-2">{data}</div> */}
           </div>
         </div>
       </>
