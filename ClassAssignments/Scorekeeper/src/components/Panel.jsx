@@ -17,7 +17,6 @@ function Panel()  {
     score: 0
   })
 
-  // const [isCompleted, setIsCompleted] = useState(false)
   let isCompleted = false;
 
   function scoreTeamOne() {
@@ -37,13 +36,12 @@ function Panel()  {
     setTeamTwo({name: teamTwo.name, image: teamTwo.image, score: teamTwo.score - 1})
   }
 
-  // let timer = (Date.now() + 180000);
-  const timer = React.useRef(Date.now()).current + 180000;
+  let timeInMilliseconds = 180000;
+  const timer = React.useRef(Date.now()).current + timeInMilliseconds;
 
   const GameFinished = () => <span style={{color: '#fff'}} >Finished!</span>;
   const renderer = ({ minutes, seconds, completed }) => {
     if (completed) {
-      // setIsCompleted(completed)
       isCompleted = completed
       return <GameFinished />;
     } else {

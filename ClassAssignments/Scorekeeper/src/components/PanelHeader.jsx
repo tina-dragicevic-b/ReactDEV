@@ -9,10 +9,6 @@ function PanelHeader (props) {
           {date.toDateString()}
           </div>
           {props.rightColumn}
-          {/* <div style={{ gridColumn: "3 / 4" }}>
-          {date.toDateString()}
-          </div>
-          <div style={{ gridColumn: "4 / 5" }}>---</div> */}
         </div>
       </>
     );
