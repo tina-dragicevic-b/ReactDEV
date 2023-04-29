@@ -1,0 +1,147 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Bamboo Watch",
+      "image": "https://imgs.search.brave.com/-JA4c9j33gZLRPuHp6JU1V3e3jmAZtvzbNHw_TtNXYM/rs:fit:1192:1148:1/g:ce/aHR0cHM6Ly93d3cu/YnVybmhhbXdhdGNo/ZXMuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDE4LzA2L1Nj/cmVlbi1TaG90LTIw/MTgtMDYtMDItYXQt/NS4wMS41Ny1QTS5w/bmc",
+      "description": {
+        "category": "Accessories",
+        "size": "Universal",
+        "color": "#ECE1B7"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Black Watch",
+      "image": "https://imgs.search.brave.com/_R5wETGWvfReaydaFJjKg0ucyCjQJPghVKNgjOk-bac/rs:fit:750:750:1/g:ce/aHR0cHM6Ly9hZTAx/LmFsaWNkbi5jb20v/a2YvSFRCMWY0aXRV/NFRwSzFSalNaRktx/Nnkyd1hYYXAvQmxh/Y2stV3Jpc3QtV2F0/Y2gtTWVuLVdhdGNo/ZXMtQnVzaW5lc3Mt/RHJlc3MtQnJhbmQt/V3Jpc3R3YXRjaC1T/dGFpbmxlc3MtU3Rl/ZWwtTWFsZS1RdWFy/dHotV2F0Y2gtRm9y/LU1lbi5qcGc",
+      "description": {
+        "category": "Accessories",
+        "size": "Universal",
+        "color": "#030B3E"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Long Purple Dress",
+      "image": "https://imgs.search.brave.com/xjYexNSNPWqb4aZI0aRS4SJKLORWat9na5Q4rgzQ0BM/rs:fit:600:600:1/g:ce/aHR0cDovL3BpY3R1/cmUtY2RuLndoZXJl/dG9nZXQuaXQvYXhm/MnFiLWwuanBn",
+      "description": {
+        "category": "Dress",
+        "size": "XS",
+        "color": "#9127CD"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Elegant Dress",
+      "image": "https://imgs.search.brave.com/RaT7216vHeDb3VrjTNoGvHtxYjI8IjHfhjKqqPqlnGQ/rs:fit:1080:1111:1/g:ce/aHR0cHM6Ly9rYW1k/b3JhLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxNy8wMS9v/cmFuZ2Utd2VkZGlu/Zy1kcmVzcy5qcGc",
+      "description": {
+        "category": "Dress",
+        "size": "S",
+        "color": "#F37E1C"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Plaid Cargo",
+      "image": "https://imgs.search.brave.com/pAOawyWNVOMwUyxQhxwT5ecAOtF4lplA3Ev5sCJulFY/rs:fit:800:800:1/g:ce/aHR0cHM6Ly9hZTAx/LmFsaWNkbi5jb20v/a2YvSFRCMVJ5dG9L/Z2FUQnVOalNzemZx/NnhnZnBYYXUvRWxl/Z2FudC1QbGFpZC1X/b21lbi1QYW50cy1F/bXBpcmUtRHJhd3N0/cmluZy1DYXJnby1Q/YW50cy1TcHJpbmct/QXV0dW1uLU9mZmlj/ZS1MYWR5LVRyb3Vz/ZXIuanBn",
+      "description": {
+        "category": "Trousers",
+        "size": "XS",
+        "color": "#EAE1C8"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Wide Leg Pants",
+      "image": "https://imgs.search.brave.com/ADcY9CG3jiuOuSiZ0W2PXrFwStM2XBFSIYK2xoDzaDA/rs:fit:800:800:1/g:ce/aHR0cHM6Ly9hZTAx/LmFsaWNkbi5jb20v/a2YvSFRCMUhwWWNK/VlhYWFhYTFhYWFhx/NnhYRlhYWEgvRmFz/aGlvbi1TcHJpbmct/QXV0dW1uLVdvbWVu/LXMtRm9ybWFsLURy/ZXNzLVBhbnRzLVdv/bWFuLUxvb3NlLVdp/ZGUtTGVnLVBhbGF6/em8tUGFudHMtT2Zm/aWNlLUxhZHkuanBn",
+      "description": {
+        "category": "Trousers",
+        "size": "S",
+        "color": "#232323"
+      }
+    },
+    {
+      "name": "Boho skirt",
+      "image": "https://www.missoni.com/product_image/35482322WK/m/w694.jpg",
+      "description": {
+        "category": "Skirt",
+        "size": "S",
+        "color": "#ffe7bd"
+      },
+      "id": 7
+    },
+    {
+      "name": "Puma's",
+      "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61a-xm-IneL._UY500_.jpg",
+      "description": {
+        "category": "Sneakers",
+        "size": "S",
+        "color": "#ffa3dd"
+      },
+      "id": 8
+    },
+    {
+      "name": "Jeffrey's",
+      "image": "https://bearpawsandcatclaws.files.wordpress.com/2013/03/p429641_black_6.jpg",
+      "description": {
+        "category": "Heels",
+        "size": "M",
+        "color": "#190d24"
+      },
+      "id": 9
+    },
+    {
+      "name": "Beels",
+      "image": "https://cdn.shopify.com/s/files/1/0590/7211/8979/products/WhatsAppImage2019-02-27at6.41.32PMcopy.jpg?v=1643094485",
+      "description": {
+        "category": "Heels",
+        "size": "S",
+        "color": "#ffddbd"
+      },
+      "id": 10
+    },
+    {
+      "name": "Purple Crop-Top",
+      "image": "https://static.zara.net/photos///2022/I/0/1/p/1750/002/439/2/w/1920/1750002439_6_1_1.jpg?ts=1654163947576",
+      "description": {
+        "category": "Crop-Top",
+        "size": "S",
+        "color": "#7b4af7"
+      },
+      "id": 11
+    }
+  ],
+  "size": [
+    "Universal",
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "category": [
+    "Accessories",
+    "Dress",
+    "Trousers",
+    "Skirt",
+    "Shirt",
+    "T-shirt",
+    "Crop-Top",
+    "Sneakers",
+    "Heels"
+  ],
+  "imageUrls": [
+    "https://www.missoni.com/product_image/35482322WK/m/w694.jpg",
+    "https://static-01.daraz.com.np/p/84a73fd3231d713eef09dd1fe6151c39.jpg",
+    "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/9/q/y/s-po3-grl-fs49-groovy-blk-wild-red-battle-leotude-original-imagfqu6zafgywgh.jpeg?q=70",
+    "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/15598180/2022/2/4/0cae0b47-0ae6-4bec-aa2f-a00a5624c3a11643957685405-DILLINGER-Women-Navy-Blue-Typography-Printed-Pure-Cotton-Loo-1.jpg",
+    "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61a-xm-IneL._UY500_.jpg",
+    "https://m.media-amazon.com/images/I/71BEg8S80CL._AC_UF1000,1000_QL80_.jpg",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj3Ysh6_nV6F7wairM1149PPNF4f1OQV7rqw&usqp=CAU",
+    "https://cdn.shopify.com/s/files/1/0590/7211/8979/products/WhatsAppImage2019-02-27at6.41.32PMcopy.jpg?v=1643094485",
+    "https://cdn.shopify.com/s/files/1/1439/1602/products/lita-platform-boot-hs-966002_800x.jpg?v=1597122808",
+    "https://bearpawsandcatclaws.files.wordpress.com/2013/03/p429641_black_6.jpg",
+    "https://static.zara.net/photos///2022/I/0/1/p/1750/002/439/2/w/1920/1750002439_6_1_1.jpg?ts=1654163947576",
+    "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F75%2F8c%2F758c16811160d7a64fcc7fb5231f79cb1d796c7a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+  ]
+}
